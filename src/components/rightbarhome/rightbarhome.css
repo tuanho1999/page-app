@@ -1,0 +1,50 @@
+.birthdayContainer{
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.birthdayContainer:hover{
+    background-color: rgb(228,230,235);
+}
+.birthdayImg{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.birthdayText{
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+    padding-right:10px;
+    
+}
+.rightbarAdvert{
+    width: 350px;
+    margin: 30px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 200px;
+}
+.rightbarTitles{
+    display: flex;
+}
+.rightbarTitle{
+    display: flex;
+    margin-bottom: 20px;
+    margin-right: 150px;
+    color: rgb(113,115,119);
+}
+.rightbarTitleIcon{
+    margin: 0px 5px;
+    color: rgb(101,103,107);
+    cursor:pointer;
+    font-size: 33px !important;
+    padding-top: 5px;
+   padding-bottom: 5px;
+    
+}
+.rightbarTitleIcon:hover{
+    background-color: rgb(228,230,235);
+   border-radius: 15px;
+}

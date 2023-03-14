@@ -1,0 +1,23 @@
+.sidebarGroup{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    padding: 5px 5px;
+    
+}
+.sidebarGroup:hover{
+    background-color: rgb(228,230,235);
+    border-radius: 10px;
+}
+.sidebarGroupImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 20%;
+    margin-right: 20px;
+    object-fit: cover;
+}
+.sidebarGroupName{
+    font-weight: 500;
+    color: black;
+}
