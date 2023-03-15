@@ -24,14 +24,13 @@
  
 }
 .centerIcon{
-  font-size: 30px !important;
-  margin-left: 30px;
-  margin-right: 20px;
+  margin-left: 55px;
   cursor: pointer;
-  width: 100px !important;
+  width: 90px !important;
   height: 45px !important;
   padding-top: 5px;
   padding-bottom: 5px;
+  color: rgb(101,103,107);
 }
 .centerIcon:hover{
   color: rgb(23,106,230);
@@ -71,7 +70,7 @@
     padding-left: 8px
 }
 .navbarIconItem:hover{
-  background-color:rgb(110,111,114);
+  background-color:rgb(192,192,191);
 }
 
 .navbarIconBadge{
@@ -130,4 +129,88 @@
 }
 .searchInput:focus {
   outline: none;
+}
+.fa-comment{
+  padding-left: 3px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 350px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 2;
+  right: 1px;
+  overflow-y: scroll;
+  height: 500px;
+  border-radius: 10px;
+
+}
+.dropdown:hover .dropdown-content {display: block;}
+
+.messHead{
+  display: flex;
+
+}
+.messTitle{
+  padding: 10px;
+  margin-right: 70px;
+  
+}
+.messIcon{
+  padding: 10px;
+  
+}
+.messIcons{
+  margin-right: 20px;
+  color: rgb(96,103,112);
+ 
+}
+.messSearch{
+  width: 92%;
+  background-color: rgb(240,242,245);
+  margin-left: 15px;
+  border-radius: 20px;
+  height: 35px;
+  padding-top: 2px;
+ 
+}
+.iconSearch{
+    margin-left: 10px;
+}
+.searchInput{
+  font-size: medium;
+}
+.messOption{
+  display: flex;
+}
+.inboxText{
+  font-size: medium;
+  cursor: pointer;
+  margin-left: 20px;
+  padding: 10px;
+  background-color: rgb(231,243,255);
+  border-radius: 15px;
+  color: rgb(24,118,242);
+}
+.inboxText:hover{
+  background-color: rgb(192,192,191);
+}
+
+.inbox{
+  margin-top: 20px;
+}
+.community{
+  font-size: medium;
+  cursor: pointer;
+  margin-left: 20px;
+  padding: 10px;
+}
+.community:hover{
+  background-color: rgb(228,230,235);
+  border-radius: 15px;
 }

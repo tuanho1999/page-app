@@ -10,7 +10,7 @@ function StoryCard({user}) {
                 alt="" 
                 className="storyProfile" />
                 <img 
-                src={user.profilePicture}
+                src={user.photo}
                 alt="" 
                 className="storybackground" />
                 <span className="text">{user.username}</span>

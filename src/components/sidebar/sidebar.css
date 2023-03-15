@@ -1,5 +1,5 @@
 .sidebar {
-  flex: 3;
+  flex: 4;
   height: calc(100vh - 50px);
   position: sticky;
   top: 50px;
@@ -11,9 +11,28 @@
 .sidebarWrapper {
   padding: 20px;
   font-weight: 200;
+  background-color: rgb(238,240,243);
 }
 .sidebarTitle{
   color: rgb(113,115,119);
+}
+.userAvas{
+  margin-right: 15px;
+  margin-left: 10px;
+}
+.userAva{
+  width: 35px;
+  height: 35px;
+  border-radius: 20px;
+  
+}
+.userText{
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 8px;
+}
+.sidebarUser{
+  display: flex;
 }
 .sidebarButton {
   background-color:rgb(1,100,225);
@@ -45,4 +64,35 @@
 
 ::-webkit-scrollbar-thumb {
   background-color: gray;
+}
+.menuLinkTextName{
+  font-weight: 500;
+  font-size: 16px;
+ 
+}
+.sidebarIcons{
+  width: 33px;
+  object: cover;
+  margin-right: 22px;
+  margin-left: 8px;
+}
+.menuLinks{
+  display: flex;
+  padding: 10px 0px;
+  align-items: center;
+  font-weight: 500;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 5px;
+
+
+}
+.menuLinks:hover{
+  background-color:rgb(228,230,235);
+  
+}
+.policyText{
+  font-size: small;
+  cursor: pointer;
+  color: rgb(149,151,154);
 }

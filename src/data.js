@@ -1,9 +1,11 @@
+
 export const Users = [
     {
       id: 1,
       name: "Đinh Thị Lan",
       username: "Lan Dinh",
       email: "landinh@gamil.com",
+      photo: "https://anbvietnam.vn/wp-content/uploads/2020/07/di-du-lich-my-can-bao-nhieu-tien7-560x400.jpg",
       profilePicture: "https://scontent.fdad1-3.fna.fbcdn.net/v/t1.6435-9/46800905_103465187351925_4827627477897576448_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=_VLseA9tNToAX94NEnP&_nc_oc=AQnuncRAzfBiEjRfwmj_tOf6qbU-i6voSRh42oww76nK4aPlJytZJULk8LoU4aPn8nk&_nc_ht=scontent.fdad1-3.fna&oh=00_AfBGsicRSgC9_HJRnsJv8Jj5kJ-TpGURBapnOOwiDA-atQ&oe=6436151D",
     },
     {
@@ -11,6 +13,7 @@ export const Users = [
       name: "Nguyễn Thị Hiền Nhi",
       username: "Hiền Nhi",
       email: "nguyenthihiennhi12799@gmail.com",
+      photo: "https://suckhoedoisong.qltns.mediacdn.vn/324455921873985536/2022/7/10/hinh-anh-cac-loai-hinh-du-lich-3-1657423025597-1657423027180128362217.jpeg",
       profilePicture: "https://scontent.fdad2-1.fna.fbcdn.net/v/t39.30808-6/273205232_1074980516408276_492628865876390575_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=aGtRWNS_eNsAX8Chtl2&_nc_ht=scontent.fdad2-1.fna&oh=00_AfCKkXfxTQZdkq_6hmAqtYClPOp_RuQcmoLl1npsMbgYpQ&oe=64134310",
     },
     {
@@ -18,6 +21,7 @@ export const Users = [
       name: "Nguyễn Tấn Huy",
       username: "Huy Nguyen",
       email: "nguyentanhuy135@gmail.com",
+      photo: "https://ik.imagekit.io/tvlk/blog/2022/02/dia-diem-du-lich-viet-nam-cover.jpeg",
       profilePicture: "https://scontent.fdad1-3.fna.fbcdn.net/v/t1.18169-9/18557082_733246806880749_1074941027529928337_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=xNLdtaT81j8AX_1jQJQ&_nc_oc=AQkQP-0k_N-pyQVEYY7QT4AS2UDssvTWEWwZ03mSu4qt2F9lbqGy0drAemWG7qcaCPw&_nc_ht=scontent.fdad1-3.fna&oh=00_AfApw8EnJ02m9lEQVlgZ38isYJCfFt0vqzXs-0EY1QhJ7A&oe=64362AF8",
     },
     {
@@ -25,6 +29,7 @@ export const Users = [
       name: "Nguyễn Quốc Anh",
       username: "Quoc Anh",
       email: "nguyenquocanh113@gmail.com",
+      photo: "https://sdl.quangbinh.gov.vn/o/3cmsnew-portlet/ViewImage?imagename=phong-nha-coco-riverside-1-ux-5645-1229-1676285527_1676341078001.jpg",
       profilePicture: "https://scontent.fdad1-2.fna.fbcdn.net/v/t39.30808-6/320611739_844830810079539_1066108858702963724_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=174925&_nc_ohc=6oemrf2BEQ4AX_7i0rj&_nc_ht=scontent.fdad1-2.fna&oh=00_AfAF5uu5KeVGLjUWTo4tpR_AyaGUYzqtB5DsWo0OqSmFWw&oe=64136493",
     },
     // {
@@ -68,6 +73,7 @@ export const Users = [
       name: "Nguyễn Thị Hiền Nhi",
       username: "Hiền Nhi",
       email: "nguyenthihiennhi12799@gmail.com",
+      mess: "Anh đang ở đâu đấy? · 2 phút trước",
       profilePicture: "https://scontent.fdad2-1.fna.fbcdn.net/v/t39.30808-6/273205232_1074980516408276_492628865876390575_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=aGtRWNS_eNsAX8Chtl2&_nc_ht=scontent.fdad2-1.fna&oh=00_AfCKkXfxTQZdkq_6hmAqtYClPOp_RuQcmoLl1npsMbgYpQ&oe=64134310",
     },
     {
@@ -75,6 +81,7 @@ export const Users = [
       name: "Đinh Thị Lan",
       username: "Lan Dinh",
       email: "landinh@gamil.com",
+      mess: "Đã bày tỏ cảm xúc về ti... · 2 tiếng trước",
       profilePicture: "https://scontent.fdad1-3.fna.fbcdn.net/v/t1.6435-9/46800905_103465187351925_4827627477897576448_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=_VLseA9tNToAX94NEnP&_nc_oc=AQnuncRAzfBiEjRfwmj_tOf6qbU-i6voSRh42oww76nK4aPlJytZJULk8LoU4aPn8nk&_nc_ht=scontent.fdad1-3.fna&oh=00_AfBGsicRSgC9_HJRnsJv8Jj5kJ-TpGURBapnOOwiDA-atQ&oe=6436151D",
     },
     {
@@ -82,6 +89,7 @@ export const Users = [
       name: "Hồ Văn Cường",
       username: "Cường Đô La",
       email: "hovancuong@gmail.com",
+      mess:"ok con · 1 ngày trước",
       profilePicture: "https://scontent.fdad3-4.fna.fbcdn.net/v/t1.6435-9/151408345_1714471472058455_619744398583095393_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Hx5y8EmjCEQAX_UvrDy&_nc_ht=scontent.fdad3-4.fna&oh=00_AfD712-pA74qe8cvB-ZcwEqRDNBzd2J741eLZRcE9wynpg&oe=6436E4C6",
     },
     {
@@ -89,6 +97,7 @@ export const Users = [
       name: "Nguyễn Tấn Huy",
       username: "Huy Nguyen",
       email: "nguyentanhuy135@gmail.com",
+      mess:"Bạn: Ok mi nha · 1 ngày trước",
       profilePicture: "https://scontent.fdad1-3.fna.fbcdn.net/v/t1.18169-9/18557082_733246806880749_1074941027529928337_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=xNLdtaT81j8AX_1jQJQ&_nc_oc=AQkQP-0k_N-pyQVEYY7QT4AS2UDssvTWEWwZ03mSu4qt2F9lbqGy0drAemWG7qcaCPw&_nc_ht=scontent.fdad1-3.fna&oh=00_AfApw8EnJ02m9lEQVlgZ38isYJCfFt0vqzXs-0EY1QhJ7A&oe=64362AF8",
     },
     {
@@ -96,6 +105,7 @@ export const Users = [
       name: "Hồ Thị Cẩm Thanh",
       username: "Ho Thanh",
       email: "hothicamthanh@gmail.com",
+      mess: "Bạn: Giày nớ tuấn không thí... · 1 ngày trước",
       profilePicture: "https://scontent.fdad3-6.fna.fbcdn.net/v/t39.30808-6/305024335_3370078446648707_7299888649394826656_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=dM41Q1TKm94AX-6oON8&_nc_ht=scontent.fdad3-6.fna&oh=00_AfCTekJ93H-JxNdaC3alI9R2-QDiHkUV84vzRrsn-yNs7g&oe=64150842",
     },
     {
@@ -103,6 +113,7 @@ export const Users = [
       name: "Hồ Thị Cẩm Nhung",
       username: "Nhung Hồ",
       email: "nhungho@gmail.com",
+      mess: "Ta ở dưới nhà đây · 2 ngày trước",
       profilePicture: "https://scontent.fdad3-4.fna.fbcdn.net/v/t39.30808-6/329133940_3404277533176124_4959228351219900548_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=bHFjXNDFZ8kAX-tLOhx&_nc_ht=scontent.fdad3-4.fna&oh=00_AfBggXLclPhNilCdZreo0E8S3eal6qAZCqptOmUhJzLD4A&oe=6413E75E",
     },
     {
@@ -110,6 +121,7 @@ export const Users = [
       name: "Trần Đàm Khả Nhi",
       username: "Nhi Đàm Khả",
       email: "khanhi@gmail.com",
+      mess : "Đoạn chat video này đã... · 3 ngày trước",
       profilePicture: "https://scontent.fdad3-4.fna.fbcdn.net/v/t39.30808-6/329893883_1534632303728873_8230663788573256442_n.jpg?stp=dst-jpg_p640x640&_nc_cat=107&ccb=1-7&_nc_sid=e3f864&_nc_ohc=8t-OVF1fNV0AX-Po6XQ&_nc_ht=scontent.fdad3-4.fna&oh=00_AfCpZzdbRq2PZMffLhQv_i9-S6h6eXWSZVJx2RIzY8ecSA&oe=641514DA",
     },
     {
@@ -117,6 +129,7 @@ export const Users = [
       name: "Hồ Văn Ngọc",
       username: "Ngọc Hồ",
       email: "hongoc@gmail.com",
+      mess: "Ngọc đã bỏ lỡ cuộc gọi của... · 3 ngày trước",
       profilePicture: "https://scontent.fdad3-4.fna.fbcdn.net/v/t1.6435-9/74693292_455446715321853_4466525409541881856_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=R2G-B3kWCGIAX9M4EMP&_nc_ht=scontent.fdad3-4.fna&oh=00_AfByv3YzOT3TwVVD3AVMSVKstdzJmI9c6OV_dRnoz1a3_A&oe=6436E5CC",
     },
     {
@@ -124,6 +137,7 @@ export const Users = [
       name: "Nguyễn Thị Hương Giang",
       username: "Hương Giang",
       email: "giangnguyen@gmail.com",
+      mess :  "Bạn đã gọi cho Giang · 4 ngày trước",
       profilePicture: "https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/326976272_911965216607264_8170939482942460271_n.jpg?stp=cp6_dst-jpg&_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=-WcT7Nj9YKsAX9z9hCK&_nc_ht=scontent.fdad3-1.fna&oh=00_AfDeeBqD_aXRJ-UiNuatb1mcwL93Swzvye1VhCHo0OdaxQ&oe=641563B5",
     },
     {
@@ -131,6 +145,7 @@ export const Users = [
       name: "Hồng Gia Khánh",
       username: "Hồng Gia Khánh",
       email: "khanhhong@gmail.com",
+      mess:"ok ok · 6 ngày trước",
       profilePicture: "https://scontent.fdad3-5.fna.fbcdn.net/v/t1.6435-9/156889397_1730991040406260_5514992874453384626_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=pYANDrouRVkAX8SYG1I&_nc_ht=scontent.fdad3-5.fna&oh=00_AfDHhJy-sYcvFGfpeyFuc1MkBfXwcjHbQXBLI_juukkmKQ&oe=6436EF29",
     },
     {
@@ -138,6 +153,7 @@ export const Users = [
       name: "Trần Quang Sơn",
       username: "Trần Quang Sơn",
       email: "sontran@gmail.com",
+      mess: "Bạn: tks bạn nhiều nha · 6 ngày trước",
       profilePicture: "https://scontent.fdad3-5.fna.fbcdn.net/v/t39.30808-6/278911680_2017969158375798_6652680460595122506_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=WMa5ivEBJNUAX_y3_ol&_nc_oc=AQmYbDwOFO1mnKU3N0r4ERoXjHmy0e-P-PFWpfQxxr4ofw6iHKtgbx9QhzIhnsEOK-GvreFHO83hHiAV-uqsLHXY&_nc_ht=scontent.fdad3-5.fna&oh=00_AfCIvso6QVukdINUcOJLW15E-wRVV90_NXqz934DEva4Lw&oe=6413C998",
     },
   ];
@@ -159,7 +175,7 @@ export const Users = [
       title: "who is to be",
       body: "it is the time of life to pursue the things that are to be blamed for the pain of a blessed one, nor avoid the pleasures of flattery.",
       photo: "https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-6/283690893_1136524156920578_1282676360742459147_n.jpg?stp=dst-jpg_p526x296&_nc_cat=110&ccb=1-7&_nc_sid=e3f864&_nc_ohc=Sb9oegR1WOYAX_s66UX&_nc_ht=scontent.fdad3-1.fna&oh=00_AfCdxz3hmEGuHbgaxothy8S2k2pby_qBbi3wsokxiehQzQ&oe=6414287A",
-      date: "23 mins ago",
+      date: "23 phút trước",
       like: "480",
       comment: "112",
     },

@@ -1,0 +1,55 @@
+.userProfileImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 30px;
+   
+  }
+
+.MessList{
+    list-style: none;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+  }
+
+.Online{
+    position: absolute;
+    background-color: limegreen;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    top: 33px;
+    right: -3px;
+    border: 2px solid white;
+   
+  }
+
+.usernameMess{
+    font-size: medium;
+  
+
+}
+
+.messFriend{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+    width: 100%;
+    margin-left: -20px ;
+    margin-top: 10px;
+
+}
+
+.MessList:hover{
+    background-color:  rgb(228,230,235);
+    border-radius: 15px;
+
+}
+.inboxbody{
+    font-size: small;
+}

@@ -3,16 +3,13 @@ import { IconButton } from '@mui/material';
 import { Users } from '../../data';
 import {
     ChatBubbleOutline,
-    MoreVert,
     Favorite,
     ThumbUp,
-    ThumbUpAltOutlined,
-    ShareOutlined,
-   
   } from "@mui/icons-material";
 import "./post.css"
 import PublicRoundedIcon from '@mui/icons-material/PublicRounded';
-import { fontSize } from '@mui/system';
+import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
+import CloseIcon from '@mui/icons-material/Close';
 
 function Post({post}) {
     return (
@@ -30,7 +27,10 @@ function Post({post}) {
                     </div>
                     <div className="postTopRight">
                         <IconButton>
-                            <MoreVert className='postVertButton'/>
+                            <MoreHorizIcon className='postVertButton'/>
+                        </IconButton>
+                        <IconButton>
+                            <CloseIcon className='postVertButton'/>
                         </IconButton>
                     </div>
                 </div>
@@ -46,23 +46,23 @@ function Post({post}) {
                     </div>
                     <div className="postBottomRight">
                         <span className="postCommentText">
-                            {post.comment} comments 
+                            {post.comment} bình luận 
                         </span>
                     </div>
                 </div>
                 <hr className="footerHr" />
                 <div className="postBottomFooter">
                     <div className="postBottomFooterItem">
-                        <ThumbUpAltOutlined className='footerIcon'/>
-                        <span className="footerText">Like</span>
+                    <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                        <span className="footerText">Thích</span>
                     </div>
                     <div className="postBottomFooterItem">
                         <ChatBubbleOutline className='footerIcon'/>
-                        <span className="footerText">Comment</span>
+                        <span className="footerText">Bình luận</span>
                     </div>
                     <div className="postBottomFooterItem">
-                        <ShareOutlined className='footerIcon'/>
-                        <span className="footerText">Share</span>
+                    <i class="fa fa-share" aria-hidden="true"></i>
+                        <span className="footerText">Chia sẻ</span>
                     </div>
                 </div>
             </div>

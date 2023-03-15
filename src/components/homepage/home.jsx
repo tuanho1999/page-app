@@ -4,6 +4,7 @@ import Feed from "../feed/Feed";
 import Navbar from "../navbar/navbar";
 import Rightbar from "../rightbar/Rightbar";
 import Sidebar from "../sidebar/Sidebar";
+
 import "./home.css"
 
 function Home() {
@@ -16,6 +17,7 @@ function Home() {
         <Feed/>
         <Rightbar/>
         </div>
+        
     </div>
   );
 }
